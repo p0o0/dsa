@@ -44,7 +44,7 @@ class AVLTree {
     }
 
     Node* rotateRight(Node *y) {
-        Node *x = y->right;
+        Node *x = y->left;
         Node *T2 = x->right;
 
         x->right = y;
